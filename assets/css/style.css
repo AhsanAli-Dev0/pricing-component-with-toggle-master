@@ -1,0 +1,78 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: hsl(234, 14%, 74%) !important;
+}
+.wrraper{
+  background-image: url(../../images/bg-bottom.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+.row .col-md-3, .form-check{
+  margin: 0%;
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+}
+.main-heading .title{
+  font-family: "Epilogue", serif;
+  font-weight: 700;
+  color: hsl(232, 13%, 33%);
+  font-size: 25px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 16px;
+}
+.togller {
+  font-family: "Epilogue", serif;
+  font-size: 15px;
+  font-weight: 500;
+  color:  hsl(233, 13%, 49%);
+  text-align: center;
+  display: block;
+  margin-bottom: 16px;
+}
+.form-check-input{
+  padding-top: 23px !important;
+  padding-right: 47px !important;
+}
+.card{
+  border-radius: 19px !important;
+}
+.card-body:not(.active) , .card-title:not(.active),.list-group-item h1:not(.active) {
+  background: #fff;
+  border-radius: 19px;
+}
+.active {
+  background:  hsl(237, 63%, 64%) !important;
+  padding: 10px 4px !important;
+  border-radius: 19px;  
+}
+.active h5, .active h1,.active .list-group-item ,.active .card-body {
+  background:unset !important;
+  color: #fff !important;
+}
+.card-link:hover{
+  color: black !important;
+}
+.card-title {
+  font-family: "Epilogue", serif;
+  font-size: 15px;
+}
+.epilogue{
+  font-family: "Epilogue", serif;
+  Font-size: 15px;
+}
+.list-group-item{
+  font-family: "Epilogue", serif;
+  font-weight: 500;
+  Font-size: 12px;
+}
+.list-group-item .price{
+  font-family: "Epilogue", serif;
+  font-weight: 700;
+  Font-size: 49px;
+}

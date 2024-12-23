@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+    #monthly {
+  display: block;  /* Make monthly section visible by default */
+}
+
+#annually {
+  display: none;  /* Initially hide annually section */
+}
+  </style>
+</head>
+
+<body>
+  <div class="wrraper" >
+  <main >
+    <div class="container-fluid"  style="background: url(./images/bg-top.svg) no-repeat ; background-position: right;">
+      <div class="row" >
+        <div class="col">
+        <div class="main-heading">
+          <h1 class="title">Our Priceing</h1>
+        </div>
+        <div class="togller d-flex justify-content-center align-items-center">
+          <label >Annually</label>
+          <div class="form-check form-switch d-flex">
+
+            <input id="checkbos" class="form-check-input mx-2" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked>
+
+          </div>
+          <label>Monthly</label>
+        </div>
+      </div>
+    </div>
+        <div id="monthly">
+        <div class="row d-flex justify-content-center row-gap-4" >
+          <div class="col-md-3 ">
+            <div class="card my-4 ">
+              <div class="card-body text-center">
+                <h5 class="card-title">Basic</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <h1 class="price"> &dollar;19.99</h1>
+                  </li>
+                  <li class="list-group-item"> 500 GB Storage</li>
+                  <li class="list-group-item"> 2 Users Allowed</li>
+                  <li class="list-group-item"> Send up to 3 GB</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link btn btn-primary  w-100">Learn More </a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body active text-center ">
+                <h5 class="card-title my-3">  Professional</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <h1 class="price"> &dollar;24.99</h1>
+                  </li>
+                  <li class="list-group-item"> 1 TB Storage </li>
+                  <li class="list-group-item"> 5 Users Allowed </li>
+                  <li class="list-group-item"> Send up to 10 GB </li>
+                </ul>
+                <div class="card-body pb-5">
+                  <a href="#" class="card-link btn bg-white w-100">Learn More </a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-md-3 ">
+            <div class="card my-4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Master</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <h1 class="price"> &dollar;39.99</h1>
+                  </li>
+                  <li class="list-group-item">2 TB Storage </li>
+                  <li class="list-group-item"> 10 Users Allowed </li>
+                  <li class="list-group-item"> Send up to 20 GB </li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link btn btn-primary w-100">Learn More </a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+      <div id="annually">
+        <div class="row d-flex justify-content-center row-gap-4">
+          <div class="col-md-3">
+            <div class="card my-4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Basic</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <h1 class="price"> &dollar;199.99</h1>
+                  </li>
+                  <li class="list-group-item"> 500 GB Storage</li>
+                  <li class="list-group-item"> 2 Users Allowed</li>
+                  <li class="list-group-item"> Send up to 3 GB</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link btn btn-primary w-100">Learn More </a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body active text-center">
+                <h5 class="card-title my-3">  Professional</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <h1 class="price"> &dollar;249.99</h1>
+                  </li>
+                  <li class="list-group-item"> 1 TB Storage </li>
+                  <li class="list-group-item"> 5 Users Allowed </li>
+                  <li class="list-group-item"> Send up to 10 GB </li>
+                </ul>
+                <div class="card-body pb-5">
+                  <a href="#" class="card-link btn bg-white w-100">Learn More </a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-md-3">
+            <div class="card my-4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Master</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <h1 class="price"> &dollar;399.99</h1>
+                  </li>
+                  <li class="list-group-item">2 TB Storage </li>
+                  <li class="list-group-item"> 10 Users Allowed </li>
+                  <li class="list-group-item"> Send up to 20 GB </li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link btn btn-primary w-100">Learn More </a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+      </div>
+    
+  </main>
+  <footer class="mt-5">
+    <div class="attribution pt-4" >
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/AhsanAli-Dev0">Ahsan Ali</a>.
+    </div>
+  </footer>
+  </div>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const monthly=document.getElementById('monthly')
+    const annually=document.getElementById('annually')
+    const checkbos=document.getElementById('checkbos')
+   function show(e){
+    e.style.display='block'
+     }
+   function hidden(e){
+    e.style.display='none'
+   }
+   checkbos.addEventListener('change', () => {
+      if (checkbos.checked) {
+        monthly.style.display = 'block';  // Show monthly section
+        annually.style.display = 'none';  // Hide annually section
+      } else {
+        monthly.style.display = 'none';  // Hide monthly section
+        annually.style.display = 'block';  // Show annually section
+      }
+    });
+
+  </script>
+</body>
+
+</html>
